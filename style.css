@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(/fitness/wall.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 645px;
+    position: absolute;
+    top: auto;
+    left: auto;
+    bottom: 10%;
+    transform: translate(0% ,0%);
+    /* border: 2px solid aqua; */
+    /* border-radius: 5px; */
+    color: white;
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 20px;
+    /* border: 2px solid wheat; */
+    transition: 0.4s ease;
+    margin-right: 5px;
+}
+ul li a:hover{
+    color:limegreen;
+    border-radius: 30px;
+    background-color: transparent;
+}
+ ul li #home{
+    color: black;
+    background-color: white;
+    transition: 0.4s ease;
+    border-radius: 10px 0 10px 0;
+} 
+.container .left{
+    padding: 40px 0;
+    width: 55%;
+}
+.container h1{
+    margin-left:15px ;
+   
+}
+.left h1{
+    margin-top: 60px;
+    margin-left: 15px;
+    font-size: 55px;
+    font-weight: 600;
+}
+p{
+    margin-left: 15px; 
+}
+#quote{
+    font-size: 2em;
+    background-image: linear-gradient(to right,yellow,wheat,orange);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    
+}
+.left span{
+    color: red;
+}
+.left p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.left button{
+    padding: 8px 30px;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color:rgb(221, 7, 7);
+    box-shadow: 0 0 20px red;
+    color: white;
+    transition: 0.4s;
+    margin-left: 15px;
+
+}
+.left button:hover{
+    background-color: blue;
+    box-shadow: 0 0 20px blue;
+}
+.social{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+.social i{
+    margin-right: 30px;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.4s;
+}
+.social i:hover{
+    border: 1px solid white;
+}
