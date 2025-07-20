@@ -3,35 +3,600 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fitness</title>
+    <title>Clean Mind Fitness - Transform Your Body & Mind</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <h1>Fitness</h1>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Trainers</a></li>
-                <li><a href="">Activities</a></li>
-                <li><a href="">Contact</a></li>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Clean Mind Fitness</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="btn-join">Join Now</a></li>
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
-        <div class="left">
-            <h1>Build Perfect Body <br> With <span>𝕮𝖑𝖊𝖆𝖓 𝕸𝖎𝖓𝖉.</span></h1>
-            <p id="quote">“You don’t have to be great to start, but you have to start to be great.” </p>
-            <p>At THE GYM, our mission is to provide you with the ultimate fitness experience, one that focuses on your specific fitness needs, helps you achieve the results you are after and invigorates your soul. We guarantee the highest quality equipment and training programs available, an expert staff, special amenities that are often not found in other health clubs, attentive service and truly sophisticated surroundings. Our every Fitness training center is committed to being a unique Fitness training center in india.</p>
-            <button>Get Started</button>
-            <div class="social">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                 
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')">
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInDown">Build Perfect Body <br> With <span>𝕮𝖑𝖊𝖆𝖓 𝕸𝖎𝖓𝖉.</span></h1>
+            <p id="quote" class="animate__animated animate__fadeIn animate__delay-1s">"You don't have to be great to start, but you have to start to be great."</p>
+            <p class="animate__animated animate__fadeIn animate__delay-1s">At Clean Mind Fitness, we provide the ultimate fitness experience tailored to your needs, helping you achieve results while invigorating your soul.</p>
+            <!-- <div class="hero-buttons animate__animated animate__fadeIn animate__delay-2s">
+                <button class="btn-primary">Get Started</button>
+                <button class="btn-secondary">Learn More</button>
+            </div> -->
+            <div class="social animate__animated animate__fadeIn animate__delay-2s">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Clean Mind Fitness</h2>
+                    <p>Founded in 2010, Clean Mind Fitness has grown to become one of the premier fitness destinations in the country. Our philosophy combines physical training with mental wellness for complete body transformation.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <h3>Modern Equipment</h3>
+                            <p>State-of-the-art equipment from leading brands</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h3>Expert Trainers</h3>
+                            <p>Certified professionals with years of experience</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heartbeat"></i>
+                            <h3>Healthy Results</h3>
+                            <p>Proven programs that deliver real results</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Modern Gym Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers-section">
+        <div class="container">
+            <h2>Meet Our Expert Trainers</h2>
+            <p class="section-subtitle">Our certified trainers will help you reach your fitness goals</p>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Personal Trainer">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Alex Johnson</h3>
+                        <p>Strength Training</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.pexels.com/photos/6551144/pexels-photo-6551144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Yoga Instructor">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Williams</h3>
+                        <p>Yoga & Pilates</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.pexels.com/photos/4662344/pexels-photo-4662344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="CrossFit Trainer">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Mike Rodriguez</h3>
+                        <p>CrossFit</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes-section">
+        <div class="container">
+            <h2>Our Classes</h2>
+            <p class="section-subtitle">Choose from our variety of fitness programs</p>
+            <div class="classes-tabs">
+                <button class="tab-btn active" data-tab="all">All Classes</button>
+                <button class="tab-btn" data-tab="strength">Strength</button>
+                <button class="tab-btn" data-tab="cardio">Cardio</button>
+                <button class="tab-btn" data-tab="mind-body">Mind & Body</button>
+            </div>
+            <div class="classes-grid">
+                <div class="class-card" data-category="strength">
+                    <div class="class-image">
+                        <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Weight Training">
+                        <div class="class-time">Mon, Wed, Fri | 7:00 AM</div>
+                    </div>
+                    <div class="class-info">
+                        <h3>Weight Training</h3>
+                        <p>Build strength and muscle with our expert-led weight training sessions.</p>
+                        <a href="#" class="btn-class">Join Class</a>
+                    </div>
+                </div>
+                <div class="class-card" data-category="cardio">
+                    <div class="class-image">
+                        <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Spin Class">
+                        <div class="class-time">Tue, Thu | 6:00 PM</div>
+                    </div>
+                    <div class="class-info">
+                        <h3>Spin Class</h3>
+                        <p>High-energy cycling sessions that burn calories and boost endurance.</p>
+                        <a href="#" class="btn-class">Join Class</a>
+                    </div>
+                </div>
+                <div class="class-card" data-category="mind-body">
+                    <div class="class-image">
+                        <img src="https://images.pexels.com/photos/3822170/pexels-photo-3822170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Yoga Class">
+                        <div class="class-time">Daily | 8:00 AM</div>
+                    </div>
+                    <div class="class-info">
+                        <h3>Yoga & Meditation</h3>
+                        <p>Improve flexibility, balance, and mental clarity with our yoga sessions.</p>
+                        <a href="#" class="btn-class">Join Class</a>
+                    </div>
+                </div>
+                <div class="class-card" data-category="strength">
+                    <div class="class-image">
+                        <img src="https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="CrossFit">
+                        <div class="class-time">Mon-Fri | 5:00 PM</div>
+                    </div>
+                    <div class="class-info">
+                        <h3>CrossFit</h3>
+                        <p>High-intensity functional training that builds all-around fitness.</p>
+                        <a href="#" class="btn-class">Join Class</a>
+                    </div>
+                </div>
+                <div class="class-card" data-category="cardio">
+                    <div class="class-image">
+                        <img src="https://images.pexels.com/photos/903171/pexels-photo-903171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Zumba">
+                        <div class="class-time">Sat, Sun | 10:00 AM</div>
+                    </div>
+                    <div class="class-info">
+                        <h3>Zumba</h3>
+                        <p>Dance-based cardio workout that's fun and effective for all fitness levels.</p>
+                        <a href="#" class="btn-class">Join Class</a>
+                    </div>
+                </div>
+                <div class="class-card" data-category="mind-body">
+                    <div class="class-image">
+                        <img src="https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Pilates">
+                        <div class="class-time">Tue, Thu | 7:00 AM</div>
+                    </div>
+                    <div class="class-info">
+                        <h3>Pilates</h3>
+                        <p>Core-strengthening exercises that improve posture and flexibility.</p>
+                        <a href="#" class="btn-class">Join Class</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership-section">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <p class="section-subtitle">Choose the plan that fits your fitness journey</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">$29<span>/month</span></div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Gym Access</li>
+                            <li><i class="fas fa-check"></i> 1 Free Class/Week</li>
+                            <li><i class="fas fa-check"></i> Locker Access</li>
+                            <li><i class="fas fa-times"></i> Personal Trainer</li>
+                            <li><i class="fas fa-times"></i> Nutrition Plan</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-pricing">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">$59<span>/month</span></div>
+                        <div class="popular-tag">Most Popular</div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited Gym Access</li>
+                            <li><i class="fas fa-check"></i> Unlimited Classes</li>
+                            <li><i class="fas fa-check"></i> Locker + Towel Service</li>
+                            <li><i class="fas fa-check"></i> 2 PT Sessions/Month</li>
+                            <li><i class="fas fa-check"></i> Basic Nutrition Plan</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-pricing">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Elite</h3>
+                        <div class="price">$99<span>/month</span></div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 24/7 Gym Access</li>
+                            <li><i class="fas fa-check"></i> Unlimited Classes</li>
+                            <li><i class="fas fa-check"></i> Premium Locker</li>
+                            <li><i class="fas fa-check"></i> 4 PT Sessions/Month</li>
+                            <li><i class="fas fa-check"></i> Custom Nutrition Plan</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-pricing">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <p class="section-subtitle">Hear from our members</p>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Clean Mind Fitness transformed my life. In just 6 months, I lost 30 pounds and gained so much confidence. The trainers are amazing!"</p>
+                        <div class="member-info">
+                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Happy Member">
+                            <div>
+                                <h4>Jessica Parker</h4>
+                                <span>Member since 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"The yoga classes helped me manage my stress and back pain. The community here is supportive and motivating. Highly recommended!"</p>
+                        <div class="member-info">
+                            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Happy Member">
+                            <div>
+                                <h4>David Chen</h4>
+                                <span>Member since 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I've been to many gyms, but Clean Mind stands out. The equipment is top-notch, and the trainers really care about your progress."</p>
+                        <div class="member-info">
+                            <img src="https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Happy Member">
+                            <div>
+                                <h4>Maria Gonzalez</h4>
+                                <span>Member since 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions or want to schedule a tour? Contact us today!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>123 Fitness Street, Health City, HC 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>(123) 456-7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@cleanmindfitness.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Hours</h3>
+                                <p>Mon-Fri: 5:00 AM - 11:00 PM<br>
+                                Sat-Sun: 7:00 AM - 9:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Clean Mind Fitness</h3>
+                    <p>Your journey to a healthier body and mind starts here. We're committed to helping you achieve your fitness goals in a supportive, motivating environment.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#trainers">Trainers</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-classes">
+                    <h3>Popular Classes</h3>
+                    <ul>
+                        <li><a href="#">Weight Training</a></li>
+                        <li><a href="#">CrossFit</a></li>
+                        <li><a href="#">Yoga</a></li>
+                        <li><a href="#">Pilates</a></li>
+                        <li><a href="#">Zumba</a></li>
+                        <li><a href="#">Spin Class</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new classes and special offers.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Clean Mind Fitness. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script>
+        // Mobile Navigation
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+const navItems = document.querySelectorAll('.nav-links li');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    hamburger.classList.toggle('active');
+});
+
+navItems.forEach(item => {
+    item.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+    });
+});
+
+// Sticky Navigation
+window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('scrolled', window.scrollY > 0);
+    
+    // Back to Top Button
+    const backToTop = document.querySelector('.back-to-top');
+    backToTop.classList.toggle('active', window.scrollY > 300);
+});
+
+// Smooth Scrolling for Anchor Links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 80,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Class Filtering
+const tabBtns = document.querySelectorAll('.tab-btn');
+const classCards = document.querySelectorAll('.class-card');
+
+tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        // Remove active class from all buttons
+        tabBtns.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        btn.classList.add('active');
+        
+        const filter = btn.getAttribute('data-tab');
+        
+        classCards.forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+});
+
+// Testimonial Slider
+let currentTestimonial = 0;
+const testimonials = document.querySelectorAll('.testimonial-card');
+const totalTestimonials = testimonials.length;
+
+function showTestimonial(index) {
+    testimonials.forEach((testimonial, i) => {
+        testimonial.style.display = i === index ? 'block' : 'none';
+    });
+}
+
+function nextTestimonial() {
+    currentTestimonial = (currentTestimonial + 1) % totalTestimonials;
+    showTestimonial(currentTestimonial);
+}
+
+function prevTestimonial() {
+    currentTestimonial = (currentTestimonial - 1 + totalTestimonials) % totalTestimonials;
+    showTestimonial(currentTestimonial);
+}
+
+// Initialize first testimonial
+showTestimonial(currentTestimonial);
+
+// Auto-rotate testimonials
+setInterval(nextTestimonial, 5000);
+
+// Form Submission
+const contactForm = document.querySelector('.contact-form form');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for your message! We will get back to you soon.');
+        contactForm.reset();
+    });
+}
+
+// Newsletter Form
+const newsletterForm = document.querySelector('.footer-newsletter form');
+if (newsletterForm) {
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const emailInput = newsletterForm.querySelector('input[type="email"]');
+        alert(`Thank you for subscribing with ${emailInput.value}!`);
+        newsletterForm.reset();
+    });
+}
+    </script>
 </body>
 </html>
